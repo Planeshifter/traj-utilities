@@ -1,0 +1,38 @@
+{
+  "name": "traj-conditional-probabilities",
+  "version": "0.0.0",
+  "description": "Calculate conditional probabilities for a multi-trajectory model fitted by traj.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Planeshifter/traj-conditional-probabilities.git"
+  },
+  "author": "Philipp Burckhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Planeshifter/traj-conditional-probabilities/issues"
+  },
+  "homepage": "https://github.com/Planeshifter/traj-conditional-probabilities#readme",
+  "dependencies": {
+    "compute-divide": "^2.0.0",
+    "compute-dot": "^1.1.0",
+    "compute-linspace": "^1.0.0",
+    "compute-mean": "^3.0.0",
+    "compute-sum": "^2.0.0",
+    "compute-to-matrix": "^1.0.0",
+    "distributions-truncated-normal-pdf": "0.0.0",
+    "dstructs-cast-arrays": "^1.0.3",
+    "math-exp": "^1.0.0",
+    "math-ln": "^1.0.0",
+    "math-power": "^1.0.0"
+  },
+  "devDependencies": {
+    "compute-linspace": "^1.0.0"
+  }
+}
